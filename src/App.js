@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import SignUp from './Components/SignUp'
+import Home from './Components/Home';
+import Navbar  from './Components/Navbar';
+import firebaseConfig from "./firebaseConfig";
+import { initializeApp } from 'firebase/app';
+import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import Signin from './Components/Signin';
+import Admin from './Components/Admin';
+import Boys from './Components/Boys';
+import Girls from './Components/Girls';
+import { useState } from 'react';
+import Footer from './Components/Footer';
 
-function App() {
+const App = () => {
+  initializeApp(firebaseConfig);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const handleLogout = () => {
+    
+    setIsLoggedIn(false);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Navbar isLoggedIn={isLoggedIn} onLogout={handleLogout}/>
+      <Routes>
+        <Route path='/' element={<Signin setLoggedIn={setIsLoggedIn} onLogout={handleLogout}/>}/>
+        <Route path='/login' element={<Signin setLoggedIn={setIsLoggedIn} onLogout={handleLogout}/>} />
+        <Route path='/signup' element={<SignUp/>}/>
+        <Route path='/home' element={<Home />} />
+        <Route path='/admin' element={<Admin />}/>
+        <Route path='/boys' element={<Boys />} />
+        <Route path='/girls' element={<Girls />} ></Route>
+      </Routes>
+      <Footer />
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

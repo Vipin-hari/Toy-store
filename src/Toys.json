@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Remote Control Car",
+      "image": "https://i5.walmartimages.com/asr/d203b6a9-350e-4b65-9bf7-f00848e19c77.07f4e40b3c0244ba6a738bb26342e0a7.jpeg",
+      "price": 2999,
+      "gender": "boys"
+    },
+    {
+      "id": 2,
+      "name": "Dollhouse",
+      "image": "https://cdn.jhmrad.com/wp-content/uploads/barbie-dollhouse-plans_397754.jpg",
+      "price": 3999,
+      "gender": "girls"
+    },
+    {
+      "id": 3,
+      "name": "Football",
+      "image": "https://i5.walmartimages.com/asr/48dd4a36-e5a8-4231-bbf2-25e8126aeb5f.51b3d55f62db417fa4f0af1e53298197.jpeg",
+      "price": 399,
+      "gender": "boys"
+    },
+    {
+      "id": 4,
+      "name": "Barbie",
+      "image": "https://toysatfoys.com/wp-content/uploads/2021/02/ML-GRN28-3-1024x1000.jpg",
+      "price": 399,
+      "gender": "girls"
+    },
+    {
+      "id": 5,
+      "name": "Omnitrix",
+      "image": "https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/2560w/products/207329/292715/legacyomnitrix-inset1__44364.1550252513.jpg?c=2",
+      "price": 399,
+      "gender": "boys"
+    },
+    {
+      "id": 6,
+      "name": "LEGO",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.2CtURhM_6TEbReGu0BXpcAHaHa&pid=Api&P=0&h=220",
+      "price": 399,
+      "gender": "boys"
+    },
+    {
+      "id": 7,
+      "name": "Kitchen Set",
+      "image": "https://th.bing.com/th/id/OIP.JeX7KJagaHxkVg3N4BMGBgHaHa?rs=1&pid=ImgDetMain",
+      "price": 399,
+      "gender": "girls"
+    },
+    {
+      "id": 8,
+      "name": "Train",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71pd6%2B7gFSL._SL1013_.jpg",
+      "price": 699,
+      "gender": "girls"
+    },
+    {
+      "id": 9,
+      "name": "Plastic toy",
+      "image": "https://th.bing.com/th/id/OIP.qXnXz8HrSXrp9BN63nit_QAAAA?rs=1&pid=ImgDetMain",
+      "price": 699,
+      "gender": "girls"
+    },
+    {
+      "id": 10,
+      "name": "Car",
+      "image": "https://i5.walmartimages.com/asr/70913066-29c1-479e-a84e-ff604ccbe5cc_1.0380b99c3682a2efd30e98b26864458f.jpeg",
+      "price": 699,
+      "gender": "boys"
+    }
+  ]
+  
